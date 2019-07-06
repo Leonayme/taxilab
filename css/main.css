@@ -1,0 +1,380 @@
+/* Los estilos de tu proyecto */
+
+*,
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#section-home,
+#section-app,
+#section-drive,
+#section-rate,
+#section-footer {
+  color: #fff;
+}
+
+/* Section encabezado */
+.nav-format {
+  background-color: #fff;
+  border-color: white;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 3%
+}
+
+.container-title-color {
+  background-color: #fff;
+}
+
+
+/* Section Home */
+
+.row-home {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+}
+
+.aside-home {
+  background-color: #f7b617;
+  box-sizing: border-box;
+  float: right;
+  font-weight: bolder;
+  height: max-content;
+  top: 40%;
+  padding: 2em;
+  width: 345px;
+}
+
+.aside-mobile h2 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.labcar-logo-home {
+  height: 20px;
+}
+
+.btn-download-app {
+  font-weight: bolder;
+  border-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* Section App */
+
+.row-app {
+  background-color: #f7b617;
+}
+
+.box-app {
+  border: 1px solid #fff;
+  max-height: max-content;
+  max-width: 90%;
+  margin: 5%;
+  padding: 10%;
+}
+
+.box-app  img {
+  width: 270px;
+}
+
+.text-destinity {
+  margin-left: 3%;
+}
+
+
+/* Section Conduce */
+
+.row-drive {
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-article {
+  background-color: rgba(64, 64, 65, 0.349);
+  height: 100vh;
+  padding: 20% 5%;
+}
+
+.bg-article h4 {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.bg-article p {
+  font-size: 20px;
+}
+
+.btn-drive {
+  background-color: #f7b617;
+  border: 1px solid #f7b617;
+  color: #fff;
+  font-weight: bolder;
+}
+
+
+/* Section Tarifas */
+
+.row-rate {
+  background-color: #f7b617;
+  color: #fff;
+  height: 100vh;
+  padding: 7% 0;
+}
+
+.row-rate h3 {
+  font-weight: 900;
+}
+
+.row-rate h4 {
+  line-height: 2em;
+}
+
+.form-route input {
+  background-color: #f7b617;
+  border: 1px solid #ffF;
+  color: #fff;
+}
+
+.form-route input::placeholder {
+  color: #fff;
+}
+
+.btn-route {
+  color: #000;
+  font-size: 16px;
+  font-weight: 900;
+  margin-left: 50%;
+  margin-right: 45%;
+  border: 1px solid #fff;
+}
+
+.box-maps {
+  border: 1px solid #fff;
+  padding: 2%;
+}
+
+
+/* Section Footer */
+.row-logo{
+  padding: 2% 0 0 0;
+}
+#section-footer {
+  background-color: #303030;
+}
+.row-logo:hover {
+  cursor: pointer;
+}
+
+.row-menu-footer h5 a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+h5 a:hover {
+  text-decoration: #f7b617;
+  color: #f7b617;
+  transition: 2s;
+}
+
+.row-menu-footer .fa {
+  margin-right: 3%;
+  margin-bottom: 10%;
+}
+
+.fa:hover {
+  cursor: pointer;
+  color: #f7b617;
+  transform-style: preserve-3d;
+}
+
+.go-market {
+  cursor: pointer;
+}
+
+.row-footer-end {
+  padding: 0 0 2% 0;
+}
+
+@media (max-width: 767px) {
+  /* Section Home */
+  .aside-desktop {
+    display: none;
+  }
+  .row-app-desktop {
+    display: none;
+  }
+
+  .menu-footer-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  /* Section Home */
+  .aside-mobile {
+    display: none;
+  }
+  
+  .row-home {
+    background-image: url(../assets/images/taxi.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .aside-home {
+    font-weight: bolder;
+    height: max-content;
+    top: 30%;
+    padding: 2em;
+    width: 450px;
+  }
+  
+  .aside-desktop h2 {
+    font-size: ;
+    font-weight: bolder;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .labcar-logo-home {
+    height: 20px;
+  }
+  
+  .btn-login,
+  .btn-home-drive {
+    font-weight: 900;
+    border-color: #fff;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .line {
+    margin: 0px 20px;
+    width: 33%;
+    border-top: 1px solid #fff;
+    position: relative;
+    top: 10px;
+    float: left;
+  }
+  
+  .text-in-line {
+    font-weight: bold;
+    float: left;
+  }
+  
+  
+  /* Section App */
+  
+  .row-app {
+    display: none;
+  }
+  
+  .row-app-desktop {
+    background-color: #f7b617;
+  }
+  
+  .box-app-desktop {
+    border: 1px solid #fff;
+    border-left: none;
+    max-height: max-content;
+    max-width: 90%;
+    margin: 5% 5% 5% 0;
+    padding: 5%;
+  }
+
+  .text-app h3 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 3em;
+  }
+  
+  .text-app p {
+    font-size: 20px;
+    line-height: em;
+  }
+  
+  
+  /* Section Conduce */
+  .bg-article {
+    max-width: max-content;
+  }
+
+  .bg-article h4 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .bg-article p {
+    font-size: 15px;
+  }
+
+  /* Section Tarifas */
+  .row-rate {
+    background-color: #f7b617;
+    color: #fff;
+    height: 80vh;
+  }
+  
+  /* Section Footer */
+  .menu-footer-mobile {
+    display: none;
+  }
+}
+
+/* MODALES */
+/* LOGIN */
+.modal-login .login-head .bg-user{
+  background-color: #337ab7;
+  height: max-content;
+  width: max-content;
+}
+
+.modal-login .login-content {
+ background-color: #08ac9d;
+} 
+
+.modal-login .login-head .bg-user .bg-icon{
+  color: #5bc0de;
+}
+
+.login-head .fa-user-circle {
+  font-size: 10em;
+}
+
+.modal-body .bg-form-login {
+  background-color: #eee;
+  width: 60%;
+}
+.btn-login-color {
+  background-color: #f7b617;
+  border: 1px solid #f7b617;
+  color: #fff;
+}
+
+/* MODAL REGISTRO */
+.modal-register .register-content,
+.modal-drive .drive-content {
+  background-color: #777;
+}
+
+.modal-register  .btn-dark {
+  background-color: #222;
+  color: #fff;
+}
